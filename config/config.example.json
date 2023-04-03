@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "Th3_J*@nX2e78_I9i",
+    "password": null,
     "database": "online_shop",
     "host": "127.0.0.1",
     "dialect": "mysql"
