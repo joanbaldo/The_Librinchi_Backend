@@ -5,7 +5,7 @@ const CategoryController = {
 
     create(req,res) {
          Category.create(req.body)
-            .then(post => res.status(201).send({ message: 'Categoria creada con éxito', post }))
+            .then(category => res.status(201).send({ message: 'Categoria creada con éxito', category }))
             .catch(console.error)
     },
 }
