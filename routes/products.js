@@ -4,6 +4,8 @@ const router = express.Router(); // Importamos e inicializamos router
 const ProductController = require('../controllers/ProductController');// Esto lo crea/importa automáticamente la linea 6
 
 router.post('/productC', ProductController.create) // Creamos ruta URL para CREAR producto
+router.put('/productU/:id', ProductController.updateProduct) // Creamos ruta URL para CREAR producto
+
 
 
 
