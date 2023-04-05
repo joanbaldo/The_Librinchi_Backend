@@ -1,6 +1,7 @@
 const { Category } = require('../models/index.js');
 const { Sequelize } = require("../models/index.js");
 const { Op } = Sequelize
+// const { Product } = require('../models/index.js');
 
 
 const CategoryController = {
@@ -81,53 +82,12 @@ const CategoryController = {
 
     showCatProds (req,res){
         Category.findAll({
-            include: [{model Product}],
+            include: [{model: Product}],
         })
             .then((categories)=>
                 res.send({ msg:"Categorias mostradas con sus productos", categories})
                 )
                 .catch((error) => console.error(error));
     }
-
-
-    // getAll(req, res) {
-    //     Product.findAll({
-    //         include: [{ model: Category }],
-    //     })
-    //         .then((products) =>
-    //             res.send({ msg: "Productos mostrados con su categoria", products })
-    //         )
-    //         .catch((error) => console.error(error));
-    // },
-
 }
-
-
 module.exports = CategoryController
-
-
-
-
-
-
-
-
-
-
-
-
-// const { Category } = require('../models/index.js');
-
-// const CategoryController = {
-
-//     // ENDPOINT: CREAR CATEGORÍA
-//     create(req, res) {
-//         Category.create(req.body)
-//             // .then(category => res.status(201).send({ message: 'Categoria creada con éxito', category }))
-//             .then(category => res.status(201).send(`La categoria -- ${category} -- ha sido creada con éxito`))
-//             .catch((error) => console.error(error));
-//     },
-
-// }
-
-// module.exports = CategoryController

@@ -9,6 +9,7 @@ router.get('/showCbyId/:id', CategoryController.getById) // Creamos ruta URL par
 router.put('/updateCbyId/:id', CategoryController.updateCategory) // Creamos ruta URL para ACTUALIZAR las categorias por ID
 router.delete('/deleteCbyId/:id', CategoryController.deleteCategory) // Creamos ruta URL para ELIMINAR las categorias por ID
 router.get('/filterCbyName/:name', CategoryController.getOneByName) // Creamos ruta URL para BUSCAR las categorias por NOMBRE
+router.get('/showAllCandP', CategoryController.showCatProds) // Creamos ruta URL para MOSTRAR las categorias y sus PRODUCTOS
 
 
 
