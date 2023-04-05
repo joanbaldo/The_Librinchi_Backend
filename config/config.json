@@ -4,7 +4,8 @@
     "password": "Th3_J*@nX2e78_I9i",
     "database": "online_shop",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "jwt_secret": "sumamalamima"
   },
   "test": {
     "username": "root",

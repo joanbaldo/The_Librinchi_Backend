@@ -1,6 +1,8 @@
 const { Order } = require("../models/index.js");
 const { Product } = require("../models/index.js");
 const product = require("../models/product.js");
+const jwt = require('jsonwebtoken');
+const { jwt_secret } = require('../config/config.json')['development']
 
 
 const OrderController = {
