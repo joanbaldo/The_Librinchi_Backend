@@ -98,7 +98,7 @@ const CategoryController = {
     //             res.send({ msg: "Productos mostrados con su categoria", products })
     //         )
     //         .catch((error) => console.error(error));
-    },
+    // },
 
 }
 

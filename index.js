@@ -6,6 +6,7 @@ app.use(express.json()); //Parsear (traducir) lo que se envíe desde el body
 
 
 app.use('/categories', require('./routes/categories.js')); //RUTA A CATEGORÍAS 
+app.use('/products', require('./routes/products.js')); //RUTA A PRODUCTOS 
 
 
 app.listen(PORT, ()=> console.log(`Servidor levantado en el puerto ${PORT}`))
