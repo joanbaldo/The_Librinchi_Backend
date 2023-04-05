@@ -66,14 +66,14 @@ const ProductController = {
             .then((product) => res.send(product))
             .catch((error) => console.error(error));
     },
-    //ENDPOINT: FILTRAR PRODUCTO POR PRECIO
-    // getOneByPrice(req, res) {
-    //     Product.findAll({
-    //       where: { price: req.params.price },
-    //     })
-    //       .then((product) => res.send(product))
-    //       .catch((error) => console.error(error));
-    //   },  
+    ENDPOINT: FILTRAR PRODUCTO POR PRECIO
+    getOneByPrice(req, res) {
+        Product.findAll({
+          where: { price: req.params.price },
+        })
+          .then((product) => res.send(product))
+          .catch((error) => console.error(error));
+      },  
 }
 
 module.exports = ProductController
