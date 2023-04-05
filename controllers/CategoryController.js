@@ -27,6 +27,24 @@ const CategoryController = {
             )
             .catch((error) => console.error(error));
     },
+    //ENDPOINT: ACTUALIZAR CATEGORÍA POR ID
+    
+    updateCategory(req, res) {
+        Category.update(
+          { ...req.body },
+          {
+            where: {
+              id: req.params.id,
+            },
+          }
+        )
+          .then(() =>
+            Category.findByPk(req.params.id).then((category) =>
+              res.send({ msg: "Se ha actualizado la categoria con exito", category })
+            )
+          )
+          .catch((error) => console.error(error));
+        }
 }
 
 
