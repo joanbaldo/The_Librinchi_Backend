@@ -4,6 +4,8 @@ const router = express.Router(); // Importamos e inicializamos router
 const CategoryController = require('../controllers/CategoryController');  // Esto lo crea/importa automáticamente la linea 6
 
 router.post('/categoryC', CategoryController.create) // Creamos ruta URL para CREAR categoría
+router.get('/showAllC', CategoryController.getAll) // Creamos ruta URL para CREAR categoría
+router.get('/showCbyId/:id', CategoryController.getAll) // Creamos ruta URL para CREAR categoría
 
 
 

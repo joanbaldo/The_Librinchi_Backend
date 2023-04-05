@@ -1,8 +1,8 @@
-const express = require ("express");
-const app = express(); //inicializar express
+const express = require ("express"); //Importar express
+const app = express(); //Inicializar express
 const PORT = 3000;
 
-app.use(express.json()); //parsear el body
+app.use(express.json()); //Parsear (traducir) lo que se envíe desde el body
 
 
 app.use('/categories', require('./routes/categories.js')); //RUTA A CATEGORÍAS 
