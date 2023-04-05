@@ -39,6 +39,21 @@ const ProductController = {
             )
             .catch((error) => console.error(error));
     },
+    //ENDPOINT: ELIMINAR PRODUCTO POR ID
+
+    deleteProduct (req, res) {
+        Product.destroy({
+            where: {
+                id: req.params.id,
+            },
+        })
+            .then(() =>
+                Product.findByPk(req.params.id).then((product) =>
+                    res.send({ msg: "El producto ha sido eliminado con exito", product })
+                )
+            )
+            .catch((error) => console.error(error));
+    },
 }
 
 module.exports = ProductController

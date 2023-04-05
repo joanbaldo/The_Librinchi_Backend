@@ -5,8 +5,8 @@ const ProductController = require('../controllers/ProductController');// Esto lo
 
 router.post('/productC', ProductController.create) // Creamos ruta URL para CREAR producto
 router.put('/productU/:id', ProductController.updateProduct) // Creamos ruta URL para CREAR producto
-router.get('/showPbyId/:id', ProductController.getById) // Creamos ruta URL para MOSTRAR las categorias por ID
-
+router.get('/showPbyId/:id', ProductController.getById) // Creamos ruta URL para MOSTRAR los productos por ID
+router.delete('/deletePbyId/:id', ProductController.deleteProduct) // Creamos ruta URL para ELIMINAR los productos por ID
 
 
 module.exports = router
