@@ -90,14 +90,14 @@ const CategoryController = {
     }
 
 
-    getAll(req, res) {
-        Product.findAll({
-            include: [{ model: Category }],
-        })
-            .then((products) =>
-                res.send({ msg: "Productos mostrados con su categoria", products })
-            )
-            .catch((error) => console.error(error));
+    // getAll(req, res) {
+    //     Product.findAll({
+    //         include: [{ model: Category }],
+    //     })
+    //         .then((products) =>
+    //             res.send({ msg: "Productos mostrados con su categoria", products })
+    //         )
+    //         .catch((error) => console.error(error));
     },
 
 }
