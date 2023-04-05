@@ -1,7 +1,7 @@
 const { Category } = require('../models/index.js');
 const { Sequelize } = require("../models/index.js");
 const { Op } = Sequelize
-// const { Product } = require('../models/index.js');
+// const { Product } = require('../models/index.js'); //Sino lo comento el servidor no inicia
 
 
 const CategoryController = {
