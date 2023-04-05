@@ -5,7 +5,7 @@ const CategoryController = require('../controllers/CategoryController');  // Est
 
 router.post('/categoryC', CategoryController.create) // Creamos ruta URL para CREAR categoría
 router.get('/showAllC', CategoryController.getAll) // Creamos ruta URL para CREAR categoría
-router.get('/showCbyId/:id', CategoryController.getAll) // Creamos ruta URL para CREAR categoría
+router.get('/showCbyId/:id', CategoryController.getById) // Creamos ruta URL para CREAR categoría
 
 
 
