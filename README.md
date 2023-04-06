@@ -2,7 +2,7 @@
 
 **INDEX**
 
-- [QUIZ GAME PROJECT](#secured-api-)
+- [SECURED API](#secured-api-)
     - [Brief intro](#brief-intro-)
     - [Milestones](#milestones-)
     - [Future upgrades](#future-upgrades-)
@@ -47,7 +47,7 @@
 ***
 
 ## Brief intro 📅
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >*This project aims to implement promises & SPA (Single Page Application) through a Quiz Game.*
 
 ***
@@ -57,7 +57,7 @@ Project managers have introduced in the briefing document some suggestions to in
 
 
 ## Milestones 📅
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >*Main milestones to reach in the project are;*
 
 | HTML JS CSS     | Milestone |
@@ -74,7 +74,7 @@ Coding priorities have been re-checked almost daily in order to speed up project
 
 
 ## Future upgrades ✅
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Things to do
 >- [x] Improve score section to show funny answers based on scoring
 >- [x] Add images to the score to improve impact 
@@ -88,14 +88,14 @@ Coding priorities have been re-checked almost daily in order to speed up project
 
 
 ## HTML notes 📋
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >We've build up the HTML with Bootstrap in mind.
 It means that we've created a nested div structure that allows us to style each section to better define each single page view.
 >With DOM access in mind to accomplish call-request functions.
 >HTML structure has been kepts as simple as possible for quick and safe testing.
 
 ## JavaScript notes 📋
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Script file has been linked inside the `<body>` section.
 >We've followed the best practices guidelines during the coding procedure.
 >Code has been built in this order:
@@ -142,14 +142,14 @@ To show and teach the gamers the right results and allow them to learn and impro
 >The quiz is responsive thanks to flex and bootstrap grid, changing width at 720px. 
 
 ## AXIOS notes 📋
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >Script file has been linked inside the `<body>` section, after the BOOTSTRAP's js link and before the main .js file.
 >Once AXIOS has been linked, we can use it to communicate with the API from which we import the quiz questions as PROMISES using the CRUD paradigm.
 
 
 ## Built with (TOOLSET) ⚙️
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 *VISUAL STUDIO CODE*
 
@@ -161,21 +161,21 @@ To show and teach the gamers the right results and allow them to learn and impro
 >* [*Live Share*](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) -Extension that allow remote team coding under the same Visual Studio project  (Version: 1.0.5832). 
 
 ## Authors ✒️
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 **kbastamow** - *Concept* | *Design* | *Coding*- [kbastamow](https://github.com/kbastamow)
 
 **Joan Baldó** - *Concept* | *Design* | *Coding*- [joanbaldo](https://github.com/joanbaldo)
 
 ## License & Copyright 🔏 
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >Please feel free to use our code if it can help you! 
 >Images shown have their own rights and have been used to reinforce positively the game score results view. All of them aim to inspire and bring enthusiasm to those gamers who are brave enough to face our Quiz challenge.
 >Regarding JS code, please check [LICENSE.md] for details.
 
 ## Acknowledgement 🫶
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 * Sofia Pinilla as code adviser and good vibe manufacturer.
 * Federico Arévalo as spiritual coach
@@ -184,12 +184,12 @@ To show and teach the gamers the right results and allow them to learn and impro
 ***
 
 # QUIZ INSIDES🎲
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >Now let's talk about the game!
 
 ## Quiz description 📄
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >Our Quiz game has the following features:
     - Vast range of topics mixed in a very attractive way
@@ -200,7 +200,7 @@ To show and teach the gamers the right results and allow them to learn and impro
     -Possibility or resetting the scoring history of the player.
 
 ## Game rules 📜
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >- Each round contains 10 questions.
 >- Player can only choose one of the four answers shown for the question provided.
@@ -210,7 +210,7 @@ To show and teach the gamers the right results and allow them to learn and impro
 
 
 ## Game views(pages) 🖲️
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >There are three views within the site:
     -Home: where two cards are shown:
@@ -221,18 +221,18 @@ To show and teach the gamers the right results and allow them to learn and impro
 
 
 ## Fun scoring 🎯
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >We want that you enjoy each round!
 >Thant's why we've prepared some surprises after each round when the game score is shown... go and try it!
 
 ## Play & learn! 🎓
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >We strongly believe that game and knowledge must coexist, so we've set up an extra function that allows the player to study all the questions and answers from the game round by clicking a button.
 
 ## Screenshots
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >Computer:
 ![Computer view](./assets/computerview.png)
@@ -243,17 +243,17 @@ To show and teach the gamers the right results and allow them to learn and impro
 ***
 
 # CODING THE QUIZ ⌨️
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >Warm your fingers...it's coding time!
 
 ## DOM to JS 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >As the basic task to start coding page view management and building HTML contents, we have to import the basic HTML elements.
 
 ### Buttons 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >We bring from DOM all the buttons.
 ```json
@@ -265,7 +265,7 @@ const reviewBtn =document.getElementById("reviewBtn")
 ```
 
 ### Sections 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 
 >We bring from DOM the sections which contain the main views.
 ```json
@@ -275,7 +275,7 @@ const score = document.getElementById("score");
 ```
 
 ### Div's 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >We bring from DOM the secondary containers where we place the elements.
 ```json
 const question = document.getElementById("question");
@@ -289,7 +289,7 @@ const chartDiv = document.getElementById("chartDiv")
 ```
 
 ## Variables for global scope 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >The following step is to declare the global variables.
 >Local variables have been declared inside their functions (local scope).
 ```json
@@ -300,11 +300,11 @@ let counter = 0;
 let scoreArray = [];
 ```
 ## Functions 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >These are some of the functions coded in JS.
 
 ### Show views 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function aimed to show/hide the views elements.
 >Original functions have been upgraded to reduce the code.
 ```json
@@ -316,7 +316,7 @@ function reveal(page) {
 }
 ```
 ### Start game 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function aimed to start the Quiz when pressing the button.
 ```json
 async function startQuiz(e) {
@@ -331,7 +331,7 @@ async function startQuiz(e) {
 }
 ```
 ### Show question & answers buttons 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function aimed to render the question and the answers array.
 ```json
 function showQuestion(e) {
@@ -357,7 +357,7 @@ function showQuestion(e) {
 }
 ```
 ### Select answers & show messages 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function aimed to render answer status: correct or incorrect.
 ```json
 function selectAnswer(e) {
@@ -388,7 +388,7 @@ function selectAnswer(e) {
 }
 ```
 ### Reset answers 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function aimed to reset the questions canvas,cleaning it.
 ```json
 function resetState() {
@@ -398,7 +398,7 @@ function resetState() {
 }
 ```
 ### Show results 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function aimed to render the score and add a funny sentence and an image.
 ```json
 function results(e) {
@@ -425,7 +425,7 @@ function results(e) {
 }
 ```
 ### Quiz Q&A report for study 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function that shows a popup containing the 10 question with the 10 correct answers.
 ```json
 function studyQs() {
@@ -438,7 +438,7 @@ function studyQs() {
 }
 ```
 ### Save results (JSON) 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function that sends score to Local Scorage.
 ```json
 function saveScore() {
@@ -449,7 +449,7 @@ function saveScore() {
 }
 ```
 ### Clear results (JSON) 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function that cleans the Local Storage.
 ```json
 function clearStorage() {
@@ -466,7 +466,7 @@ function clearStorage() {
 }
 ```
 ### Chart display and creation (chart.js) 🖳
-[⬆️](#quiz-game-project-) 
+[⬆️](#secured-api-) 
 >Function that displays chart created with chart.js
 ```json
 function showStats() {
@@ -513,7 +513,7 @@ function showStats() {
     }
 ```
 ### Restart Quiz 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function that resets the quiz and takes player back to page 1.
 ```json
 function restartQuiz(e) {
@@ -528,7 +528,7 @@ function restartQuiz(e) {
 ```
 
 ## Add event listeners for buttons 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >Function that shows which function each button triggers.
 ```json
 nextBtn.addEventListener("click", showQuestion);
@@ -539,7 +539,7 @@ reviewBtn.addEventListener("click", studyQs);
 ```
 
 ## Functions called on first page load 🖳
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 > Loads first page.
 ```json
 reveal(home);
