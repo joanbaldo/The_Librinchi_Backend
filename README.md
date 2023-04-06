@@ -47,7 +47,7 @@
 ***
 
 ## Brief intro 📅
-[⬆️](#secured-api-)
+[⬆️](#secured-api)
 >*This project aims to implement promises & SPA (Single Page Application) through a Quiz Game.*
 
 ***
