@@ -50,6 +50,24 @@ const UserController = {
         res.send({ token, message: 'Bienvenid@ ' + user.name, user });
         });
       },
+
+    // ENDPOINT: USUARIO LOGEADO
+    
+  getInfoUser(req, res) {
+    User.findByPk(req.user.id, {
+        include: [
+        {
+            model: Order,
+            include: [{ model: Product }],
+        },
+        ],
+    })
+      .then((user) =>
+          res.send({ msg: "Información del usuario conectado mostrada con éxito", user })
+        
+      )
+      .catch((error) => console.error(error));
+  },
 }
 
 
