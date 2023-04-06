@@ -95,7 +95,7 @@ It means that we've created a nested div structure that allows us to style each 
 >HTML structure has been kepts as simple as possible for quick and safe testing.
 
 ## JavaScript notes 📋
-[⬆️](#secured-api-)
+[⬆️](#quiz-game-project-)
 >Script file has been linked inside the `<body>` section.
 >We've followed the best practices guidelines during the coding procedure.
 >Code has been built in this order:
