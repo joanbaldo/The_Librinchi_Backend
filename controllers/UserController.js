@@ -68,6 +68,24 @@ const UserController = {
       )
       .catch((error) => console.error(error));
   },
+      // ENDPOINT: LOGOUT USUARIO
+      logout(req, res) {
+        Token.destroy({
+            where: {
+                [Op.and]: [
+                    { UserId: req.user.id },
+                    { token: req.headers.authorization },
+                ],
+            },
+        })
+            .then(() => {
+                res.send({ message: "Desconectado con éxito" });
+            })
+            .catch((error) => {
+                console.log(error);
+                res.status(500).send({ message: "hubo un problema al tratar de desconectarte" });
+            });
+        }
 }
 
 
