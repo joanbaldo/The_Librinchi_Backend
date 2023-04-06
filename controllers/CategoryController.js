@@ -1,4 +1,4 @@
-const { Category } = require('../models/index.js');
+const { Category ,Product} = require('../models/index.js');
 const { Sequelize } = require("../models/index.js");
 const { Op } = Sequelize
 // const { Product } = require('../models/index.js'); //Sino lo comento el servidor no inicia
