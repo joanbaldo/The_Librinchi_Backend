@@ -1,8 +1,8 @@
-# QUIZ GAME PROJECT 🃏
+# BACKEND DEVELOPMENT: SECURED API  🖧
 
 **INDEX**
 
-- [QUIZ GAME PROJECT](#quiz-game-project-)
+- [QUIZ GAME PROJECT](#secured-api-)
     - [Brief intro](#brief-intro-)
     - [Milestones](#milestones-)
     - [Future upgrades](#future-upgrades-)
@@ -124,7 +124,7 @@ It means that we've created a nested div structure that allows us to style each 
 To create and display the chart, we've used **chart.js** , which needs to be inserted as script in html and built with a js function.
 
 ## CSS notes 📋
-[⬆️](#quiz-game-project-)
+[⬆️](#secured-api-)
 >CSS files have been linked inside the `<head>` section.
 >Our own CSS styles file only contains the main rule which manages the visibility of the views and animation for the header. Nothing else is brought from this file.
 >We've used a Bootswatch template to create the visual setup, following the style and syntax of BOOTSTRAP.
