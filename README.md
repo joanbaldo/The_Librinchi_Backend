@@ -2,7 +2,7 @@
 
 ## INDEX
 
-- [SECURED API](#quiz-insides)
+- [SECURED API]
     - [Brief intro](#brief-intro-)
     - [Milestones](#milestones-)
     - [Future upgrades](#future-upgrades-)
@@ -19,7 +19,7 @@
     - [Categories endpoints](#milestones-)
     - [User endpoints](#future-upgrades-)
     - [Order endpoints](#future-upgrades-)
-    - [Product-Order](#future-upgrades-)
+    - [Product-Order endoints](#future-upgrades-)
 
 
 ## Brief intro 📅
@@ -97,6 +97,7 @@ Coding priorities have been re-checked almost daily in order to speed up project
 >* [*JASON WEB TOKEN*](https://jwt.io/) - Module to create tokens.
 >* [*Bcrypt*](https://www.npmjs.com/package/bcrypt/) - Production dependency to encrypt data.
 >* [*Live Server*](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) -Extension that updates the choosen browser to see changes in real time.
+>* [*POSTMAN*](https://www.postman.com/) -API Platform that allow us to execute promises and server requests and responses.(Version: 10.12.13)
 
 
 ## Authors ✒️
@@ -121,12 +122,13 @@ Coding priorities have been re-checked almost daily in order to speed up project
 
 ***
 
-# CODING THE QUIZ ⌨️
+# MANAGING THE INFO ⌨️
 [⬆️](#index)
 
->Warm your fingers...it's coding time!
+>*The following sections show the different API REST methods used to bring and deliver info from ad to the server built with ODE JS. I've used Postman *
 
-## DOM to JS 🖳
+## Product endpoints 🖳
 [⬆️](#index)
 
->As the basic task to start coding page view management and building HTML contents, we have to import the basic HTML elements.
+>*PRODUCT - Creating a product. *
+![](./assets/Product_CREATE_POST.jpg)
