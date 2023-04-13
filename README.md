@@ -3,17 +3,24 @@
 ## INDEX
 
 - [SECURED API](#quiz-insides)
-    - [Brief intro](#brief-intro)
-    - [Milestones](#milestones)
-    - [Future upgrades](#future-upgrades)
-    - [HTML Notes](#fun-scoring-)
-    - [JS Notes](#play--learn-)
-    - [Node Notes](#play--learn-)
-    - [CSS Notes](#play--learn-)
-    - [Sequelize Notes](#play--learn-)
-    - [MySQL Notes](#play--learn-)
-    - [Built with](#play--learn-)
+    - [Brief intro](#brief-intro-)
+    - [Milestones](#milestones-)
+    - [Future upgrades](#future-upgrades-)
+    - [HTML Notes](#html-notes-)
+    - [JS Notes](#js-notes-)
+    - [Node Notes](#node-js-notes-)
+    - [CSS Notes](#css-notes-)
+    - [Sequelize Notes](#sequelize-notes-)
+    - [MySQL Notes](#mysql-notes-)
+    - [Built with](#built-with-toolset-)
  
+ - [MANAGING THE INFO](#quiz-insides)
+    - [Product endpoints](#brief-intro-)
+    - [Categories endpoints](#milestones-)
+    - [User endpoints](#future-upgrades-)
+    - [Order endpoints](#future-upgrades-)
+    - [Product-Order](#future-upgrades-)
+
 
 ## Brief intro 📅
 [⬆️](#index)
@@ -109,3 +116,17 @@ Coding priorities have been re-checked almost daily in order to speed up project
 
 * Sofia Pinilla as code adviser and good vibe manufacturer.
 * Federico Arévalo as spiritual coach.
+
+
+
+***
+
+# CODING THE QUIZ ⌨️
+[⬆️](#index)
+
+>Warm your fingers...it's coding time!
+
+## DOM to JS 🖳
+[⬆️](#index)
+
+>As the basic task to start coding page view management and building HTML contents, we have to import the basic HTML elements.
