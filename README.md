@@ -56,7 +56,7 @@ Coding priorities have been re-checked almost daily in order to speed up project
 
 >*JS has been used entirely to execute NODE JS which is the real handler of the code behind the server.*
 
-## NODE notes 📋
+## NODE JS notes 📋
 [⬆️](#index)
 
 >*Node framework has been the key piece to build up the server.*
@@ -78,34 +78,34 @@ Coding priorities have been re-checked almost daily in order to speed up project
 
 
 ## Built with (TOOLSET) ⚙️
-[⬆️](#quiz-game-project-)
+[⬆️](#index)
 
 *VISUAL STUDIO CODE*
 
 >* [*VISUAL STUDIO CODE*](https://code.visualstudio.com/) - Code editor used (Version: 1.75.1)
->* [*BOOTSTRAP*](https://getbootstrap.com) - CSS Framework (Version: 5.3.0) 
->* [*BOOTSWATCH*](https://bootswatch.com) - CSS Templates for Bootstrap
->* [*Open trivia database*](https://opentdb.com/) - API for questions
+>* [*NODE JS*](https://nodejs.org/es/) - Server Framework (Version: 18.15.0) 
+>* [*NODEMON*](https://www.npmjs.com/package/nodemon) - Development dependency
+>* [*SEQUELIZE*](https://sequelize.org/) - Object Relational Mapping tool for MySQL. (Version: 6.30.0)
+>* [*SEQUELIZE CLI*](https://sequelize.org/) - Command Line Interface for Sequelize. (Version: 6.30.0)
+>* [*JASON WEB TOKEN*](https://jwt.io/) - Module to create tokens.
+>* [*Bcrypt*](https://www.npmjs.com/package/bcrypt/) - Production dependency to encrypt data.
 >* [*Live Server*](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) -Extension that updates the choosen browser to see changes in real time.
->* [*Live Share*](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) -Extension that allow remote team coding under the same Visual Studio project  (Version: 1.0.5832). 
+
 
 ## Authors ✒️
-[⬆️](#quiz-game-project-)
+[⬆️](#index)
 
-**kbastamow** - *Concept* | *Design* | *Coding*- [kbastamow](https://github.com/kbastamow)
-
-**Joan Baldó** - *Concept* | *Design* | *Coding*- [joanbaldo](https://github.com/joanbaldo)
+**Joan Baldó** - *Deployment* | *Coding* | - [joanbaldo](https://github.com/joanbaldo)
 
 ## License & Copyright 🔏 
-[⬆️](#quiz-game-project-)
+[⬆️](#index)
 
->Please feel free to use our code if it can help you! 
->Images shown have their own rights and have been used to reinforce positively the game score results view. All of them aim to inspire and bring enthusiasm to those gamers who are brave enough to face our Quiz challenge.
+>Please feel free to use my code if it can help you! 
+>Images shown have been extracted from POSTMAN gallery section.
 >Regarding JS code, please check [LICENSE.md] for details.
 
 ## Acknowledgement 🫶
-[⬆️](#quiz-game-project-)
+[⬆️](#index)
 
 * Sofia Pinilla as code adviser and good vibe manufacturer.
-* Federico Arévalo as spiritual coach
-* The crazy guys that are on our side creating amazing stuff while giving us a hand
+* Federico Arévalo as spiritual coach.
