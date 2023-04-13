@@ -14,27 +14,6 @@
     - [MySQL Notes](#play--learn-)
     - [Built with](#play--learn-)
  
-.
-.
-.
-.
-..
-.
-.
-.
-.
-.
-.
-.
-.
-.
-..
-.
-.
-.
-.
-.
-
 
 ## Brief intro
 [⬆️](#index)
@@ -47,37 +26,26 @@
 Some suggestions to include extra features have been detailed in the table below.
 
 ## Milestones
+[⬆️](#index)
 
 | HTML JS CSS     | Milestone |
 | :-----------:   | :---------- |
 |HTML               | Create the forms to directly input the data     |
 |JS           | Create the promises structure to replace postman for real form inputs.     |
 |HTML               | Prepare layout to create CARDS for the products
-|JS               | Export orders in pdf| 
+
 
 > __Note__
 Coding priorities have been re-checked almost daily in order to speed up project development.
 
->Things to do
->- [x] Improve score section to show funny answers based on scoring
->- [x] Add images to the score to improve impact 
->- [X] Add score chart in main view
->- [X] Add title animation on header
->- [ ] Multiplayer option
->- [ ] On start, select difficulty level (radio buttons)
->- [ ] On start, select topic (collapsible list)
->- [ ] On start, select number of questions (radio buttons)
->- [ ] Layout color scheme change option (radio buttons)
 
 ## Future upgrades
+[⬆️](#index)
 
-
-
-
-
-
-
-
+>Things to do
+>- [ ] Create SPA to nest front-end forms and inputs 
+>- [ ] Create a card system to show the products
+>- [ ] Export orders in pdf
 
 
 ## HTML notes
