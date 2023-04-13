@@ -1,3 +1,4 @@
+![](./assets/Banner_Readme.jpg)
 # BACKEND DEVELOPMENT SECURED API
 
 ## INDEX
