@@ -15,11 +15,11 @@
     - [Built with](#built-with-toolset-)
  
  - [MANAGING THE INFO](#quiz-insides)
-    - [Product endpoints](#brief-intro-)
+    - [Products endpoints](#brief-intro-)
     - [Categories endpoints](#milestones-)
-    - [User endpoints](#future-upgrades-)
-    - [Order endpoints](#future-upgrades-)
-    - [Product-Order endoints](#future-upgrades-)
+    - [Users endpoints](#future-upgrades-)
+    - [Orders endpoints](#future-upgrades-)
+    - [Product-Orders endoints](#future-upgrades-)
 
 
 ## Brief intro 📅
@@ -127,8 +127,43 @@ Coding priorities have been re-checked almost daily in order to speed up project
 
 >*The following sections show the different API REST methods used to bring and deliver info from ad to the server built with ODE JS. I've used Postman *
 
-## Product endpoints 🖳
+## Products endpoints 🖳
 [⬆️](#index)
 
 >*PRODUCT - Creating a product. *
+
 ![](./assets/Product_CREATE_POST.jpg)
+
+>*PRODUCT - Updating a product. *
+
+![](./assets/Product_UPDATEBYID_PUT.jpg)
+
+## Categories endpoints 🖳
+[⬆️](#index)
+
+>*PRODUCT - Creating a product. *
+
+![](./assets/Product_CREATE_POST.jpg)
+
+
+## Users endpoints 🖳
+[⬆️](#index)
+
+>*PRODUCT - Creating a product. *
+
+![](./assets/Product_CREATE_POST.jpg)
+
+## Orders endpoints 🖳
+[⬆️](#index)
+
+>*PRODUCT - Creating a product. *
+
+![](./assets/Product_CREATE_POST.jpg)
+
+## Products-Orders endpoints 🖳
+[⬆️](#index)
+
+>*PRODUCT - Creating a product. *
+
+![](./assets/Product_CREATE_POST.jpg)
+
