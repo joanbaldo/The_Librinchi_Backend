@@ -14,12 +14,12 @@
     - [MySQL Notes](#mysql-notes-)
     - [Built with](#built-with-toolset-)
  
- - [MANAGING THE INFO](#quiz-insides)
-    - [Products endpoints](#brief-intro-)
-    - [Categories endpoints](#milestones-)
-    - [Users endpoints](#future-upgrades-)
-    - [Orders endpoints](#future-upgrades-)
-    - [Product-Orders endoints](#future-upgrades-)
+ - [MANAGING THE INFO](#managing-the-info-)
+    - [Products endpoints](#products-endpoints-)
+    - [Categories endpoints](#categories-endpoints-)
+    - [Users endpoints](#users-endpoints-)
+    - [Orders endpoints](#orders-endpoints-)
+    - [Product-Orders endoints](#products-orders-endpoints-)
 
 
 ## Brief intro 📅
@@ -138,32 +138,85 @@ Coding priorities have been re-checked almost daily in order to speed up project
 
 ![](./assets/Product_UPDATEBYID_PUT.jpg)
 
+>*PRODUCT - Deleting a product by its ID. *
+
+![](./assets//Product_DELETEBYID_DELETE.jpg)
+
+>*PRODUCT - Showing a product by its ID.. *
+
+![](./assets/Product_SHOWBYID_GET.jpg)
+
+>*PRODUCT - Filtering a product by its NAME. *
+
+![](./assets/Product_FILTERBYNAME_GET.jpg)
+
+>*PRODUCT - Filtering a product by its PRICE. *
+
+![](./assets/Product_FILTERBYPRICE_GET.jpg)
+
+>*PRODUCT - Showing all product by its PRICE in descent order. *
+
+![](./assets/Product_FILTERBYPRICE_DOWN_GET.jpg)
+
 ## Categories endpoints 🖳
 [⬆️](#index)
 
->*PRODUCT - Creating a product. *
+>*CATEGORY - Creating a category. *
 
-![](./assets/Product_CREATE_POST.jpg)
+![](./assets/Category_CREATE_POST.jpg)
+
+>*CATEGORY - Updating a category by its ID. *
+
+![](./assets/Category_UPDATEBYID_PUT.jpg)
+
+>*CATEGORY - Deleting a category by its ID. *
+
+![](./assets/Category_DELETEBYID_DELETE.jpg)
+
+>*CATEGORY - Showing ALL categories. *
+
+![](./assets/Category_SHOWALL_GET.jpg)
+
+>*CATEGORY - Filtering categories by NAME. *
+
+![](./assets/Category_FILTERBYNAME_GET.jpg)
+
+>*CATEGORY - Filtering categories by its ID. *
+
+![](./assets/Category_SHOWBYID_GET.jpg)
 
 
 ## Users endpoints 🖳
 [⬆️](#index)
 
->*PRODUCT - Creating a product. *
+>*USER - Creating a user. *
 
-![](./assets/Product_CREATE_POST.jpg)
+![](./assets/User_CREATE_POST.jpg)
+
+>*USER - Deleting a user by its ID. *
+
+![](./assets/User_DELETE_DELETE.jpg)
+
+>*USER - Showing the LOGGED user. *
+
+![](./assets/User_LOGIN_POST.jpg)
+
+>*USER - Getting the LOGGED user *
+
+![](./assets/User_INFO_LOGGED_GET.jpg)
 
 ## Orders endpoints 🖳
 [⬆️](#index)
 
->*PRODUCT - Creating a product. *
+>*ORDER - Creating an order. *
 
-![](./assets/Product_CREATE_POST.jpg)
+![](./assets/Order_CREATE_POST.jpg)
+
 
 ## Products-Orders endpoints 🖳
 [⬆️](#index)
 
->*PRODUCT - Creating a product. *
+>*PRODUCT- ORDER - Showing ALL orders with products. *
 
-![](./assets/Product_CREATE_POST.jpg)
+![](./assets/Order_WITH_Products_GET.jpg)
 
