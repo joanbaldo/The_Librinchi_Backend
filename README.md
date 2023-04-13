@@ -1,17 +1,19 @@
 # BACKEND DEVELOPMENT SECURED API
 
-## INDEX
--SECURED API
-    +Brief intro
-    +Milestones
-    +Future upgrades
-    +HTML notes
-    +JS notes
-    +CSS notes
-    +Sequelize notes
-    +MySQL notes
-    +Built with (Toolset)
+**INDEX**
 
+- [SECURED API](#quiz-insides)
+    - [Brief intro](#quiz-description-)
+    - [Milestones](#game-rules-)
+    - [Future upgrades](#game-viewspages-)
+    - [HTML Notes](#fun-scoring-)
+    - [JS Notes](#play--learn-)
+    - [JS Notes](#play--learn-)
+    - [CSS Notes](#play--learn-)
+    - [Sequelize Notes](#play--learn-)
+    - [MySQL Notes](#play--learn-)
+    - [Built with](#play--learn-)
+ 
 
 ## Brief intro
 >*This project aims to create a complete backend system using an online store as target to develope the logic and code behind*
